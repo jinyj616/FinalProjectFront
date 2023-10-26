@@ -1,0 +1,44 @@
+/* ArticleDetail.css */
+.article-detail-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.article-info {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.article-date {
+    font-weight: bold;
+}
+
+.article-content {
+    margin-top: 20px;
+}
+
+.article-press {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.image-container {
+    width:750px; /* 원하는 가로 크기 */
+    height: 600px; /* 원하는 세로 크기 */
+    overflow: hidden; /* 이미지를 컨테이너 크기로 자르도록 설정 */
+}
+
+.image-container img {
+    width: 100%; /* 이미지를 컨테이너에 맞게 조절 */
+    height: auto; /* 세로 크기 자동 조절 */
+}

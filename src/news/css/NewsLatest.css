@@ -1,0 +1,24 @@
+.NewsLatest {
+    margin-top: 20px; /* 원하는 픽셀 수만큼 설정 */
+}
+
+.NewsLatest ul {
+    list-style: none;
+    padding: 0;
+}
+
+.NewsLatest li {
+    margin-bottom: 20px;
+
+}
+
+.NewsLatest li:hover {
+    text-decoration: underline;
+    color: #cccccc;
+}
+
+.NewsLatest h3 {
+    font-size: 15px;
+    text-align: left; /* 왼쪽 정렬 스타일 적용 */
+    color: #cccccc;
+}

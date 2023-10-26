@@ -1,0 +1,39 @@
+.kLeague-logo-button {
+    background: #202030;
+    border: none; /* 버튼 스타일 초기화 */
+    padding: 0; /* 버튼 내부 간격 초기화 */
+    cursor: pointer; /* 커서를 포인터로 변경하여 클릭 가능함을 나타냄 */
+}
+
+.kLeague-logo-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* 세로로 나열하도록 설정 */
+    align-items: center; /* 가운데 정렬 */
+    height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out; /* 부드러운 확장 애니메이션 */
+}
+
+.kLeague-logo-list.open {
+    height: auto; /* 메뉴를 확장함 */
+}
+
+.kLeague-logo-list button {
+    background: #202030;
+    height: auto; /* 버튼의 높이를 자동으로 조정 */
+    border: none; /* 버튼 스타일 초기화 */
+    padding: 0; /* 버튼 내부 간격 초기화 */
+    cursor: pointer; /* 커서를 포인터로 변경하여 클릭 가능함을 나타냄 */
+
+}
+
+.kLeague-logo-list li {
+    margin: 10px;
+}
+
+.kLeague-logo-list img {
+    width: 60px; /* 로고 이미지 너비 조정 */
+    height: auto;
+}
